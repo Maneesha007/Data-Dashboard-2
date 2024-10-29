@@ -160,3 +160,25 @@ body {
 .character-details p {
   margin: 0.5rem 0; /* Adjust margin for paragraph spacing */
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.home-link {
+  border: 1px dotted white;
+  background: #1d1f1d;
+  width: 75px;
+  padding: 5px;
+  text-align: center;
+}
+
+.character-bar-chart {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

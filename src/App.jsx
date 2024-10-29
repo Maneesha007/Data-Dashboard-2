@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import md5 from "crypto-js/md5";
 import "./App.css";
+import CharacterBarChart from "./components/Characterchart.jsx";
+
 
 const API_KEY = import.meta.env.VITE_APP_API_KEY;
 const PRIVATE_API_KEY = import.meta.env.VITE_SERVER_API_KEY;
@@ -19,6 +21,8 @@ const CharactersList = () => {
   const [selectedSeries, setSelectedSeries] = useState("");
   const [selectedEvent, setSelectedEvent] = useState("");
   const [characterDetails, setCharacterDetails] = useState(null);
+  const [selectedCharacterId, setSelectedCharacterId] = useState(null);
+
 
   const publicKey = API_KEY;
   const privateKey = PRIVATE_API_KEY;
@@ -74,7 +78,9 @@ const CharactersList = () => {
 
   const handleCharacterClick = (character) => {
     // If the same character is clicked, toggle the details view off
+
     setCharacterDetails(prevDetails => (prevDetails && prevDetails.id === character.id ? null : character));
+    setSelectedCharacterId(character.id);
   };
 
   const filteredCharacters = characters.filter(character =>
@@ -131,6 +137,9 @@ const CharactersList = () => {
                 </select>
               </div>
 
+              
+
+
               <div className="character-list">
                 {filteredCharacters.map((character) => (
                   <div
@@ -164,6 +173,12 @@ const CharactersList = () => {
                   <button onClick={() => setCharacterDetails(null)}>Close</button>
                 </div>
               )}
+
+             
+            <div className="character-bar-chart">
+              <h3>Comics per Character</h3>
+              <CharacterBarChart characters={characters} />
+            </div>
             </>
           )}
         </div>
