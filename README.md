@@ -2,7 +2,7 @@
 
 Submitted by: **Maneesha**
 
-This web app: ** **
+This web app: **The Marvel Dashboard is a web application that allows users to explore the Marvel universe by displaying detailed information about various characters. Users can view a comprehensive list of characters along with statistics such as the total number of characters, the most and least featured characters, and the average number of series per character. The app includes a search feature and filters to easily navigate the character list. Additionally, users can see detailed character profiles that provide insights into their comic appearances, stories, and events. A horizontal bar chart visualizes the number of comics each character has appeared in, highlighting the most popular characters based on their extensive comic histories.**
 
 Time spent: **7** hours spent in total
 
@@ -30,6 +30,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<div>
+    <a href="https://www.loom.com/share/5c449cd1cee344f5a312baebec6cbe9f">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5c449cd1cee344f5a312baebec6cbe9f-0ade76b52b7f2fc9-full-play.gif">
+    </a>
+  </div>
 
 
 ## Notes
