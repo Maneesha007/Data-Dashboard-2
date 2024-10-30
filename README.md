@@ -31,8 +31,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <div>
-    <a href="https://www.loom.com/share/5c449cd1cee344f5a312baebec6cbe9f">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5c449cd1cee344f5a312baebec6cbe9f-0ade76b52b7f2fc9-full-play.gif">
+    <a href="https://www.loom.com/share/039888e056a240f6a3270d4532c17594">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/039888e056a240f6a3270d4532c17594-7a5b8c915547f100-full-play.gif">
     </a>
   </div>
 
